@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Centeral Functions of ITS track</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZITSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZITS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZITS_ALLOWED_MTART_GET</FUNCNAME>
+     <SHORT_TEXT>Get allowed material type of ITS t-code</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_ALLOWED_MTART</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTITS_MTART_TAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_ALLOWED_MTART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type of ZTITS_MTART_TAB</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZITS_ALLOWED_MTART_SET</FUNCNAME>
+     <SHORT_TEXT>Set allowed material type by t-code</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_ALLOWED_MTART</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTITS_MTART_TAB</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_ALLOWED_MTART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type of ZTITS_MTART_TAB</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZITS_GET_ORDER_DATA_BUFFER</FUNCNAME>
+     <SHORT_TEXT>Get Order data from buffer</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ORDER_NUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>AUFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_ORDER_DATA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSMTD_ORDER_DETAIL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ORDER_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Order Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_ORDER_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Order detail</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZITS_GET_USER_PROFILE_BUFFER</FUNCNAME>
+     <SHORT_TEXT>Get user profile from Buffer</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_USER_PROFILE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSITS_USER_PROFILE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ES_USER_PROFILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User profile of Scanning operator</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZITS_SET_ORDER_DATA_BUFFER</FUNCNAME>
+     <SHORT_TEXT>Save the order data into buffer</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_ORDER_DATA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSMTD_ORDER_DETAIL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_ORDER_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Order Number</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

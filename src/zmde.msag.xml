@@ -1,0 +1,1621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMDE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>error message for mde transactions</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Bar code invalid: wrong check digit. &amp;1&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Quantity is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Material &amp;1 unknown or not valid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No valid FAUF found for HALB &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No valid FAUF found for FERT &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>To FAUF &amp;1: Not all elements are retrograde adjusted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>HALB &amp;1 as FAUF-element not identical with HALB of FERT-material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>HALB as FAUF-element has no valid production storage location: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>VERP as FAUF-element has no valid production storage location: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>VERP-material &amp;1 isn&apos;t created for plant &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>FAUF contain no VERP-elements. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: Responses are not OK   TO:&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: &amp;3          TO:&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: Responses are not OK   TA:&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>GR-HALB: &amp;1 TO: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>GR-HALB: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>GR-Booking aborted: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>At the moment the storage unit is not wokrable. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>The storage unit number is alsready reserved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Order &amp;1 is currently locked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Material &amp;1 is currently locked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>GR-Booking FERT ok:&amp;1 GR-Booking HALB ok:&amp;2 TO not generated yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Part of the bar code couldn&apos;t assigned: AI: &amp;1 Data: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Warehousenumber is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Material is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Production date is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Booking Date is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Invalid plant &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Invalid storage location &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Only WM storage location is valid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Only material type FERT / HALB is allowed. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Material &amp;1 isn&apos;t created for plant &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Material &amp;1 isn&apos;t created for storage location &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Material &amp;1 isn&apos;t created for warehouse number &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Stock placement for material &amp;1 isn&apos;t tended.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>LE qunatity for material &amp;1 isn&apos;t tended.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>LE unit for material &amp;1 isn&apos;t tended.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Storage unit type for material &amp;1 not tended.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Material &amp;1 is handled in batches.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Storage unit number  is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Date has to be actual or previous month. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>HALB-Material not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Data isn&apos;t numeric.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Data &amp;1 is oversized!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>GR-Booking ok: &amp;1 TO ok: &amp;2 Batch-No.: &amp;3 inspection lot: &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error at TO-preparation: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Document for GR-Booking: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Order-No. is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Order pos is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>GR date is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Order &amp;1 is inexistent.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Order &amp;1 has delete flag.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Order pos &amp;1 &amp;2 is inexistent.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Order pos has delete flag: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Only chemical material is allowed. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Storage location is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Invalid storage location: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Enter quantity of pallet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>PLease enter quantity.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Error at TO confirmation: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Only technical material is allowed. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Storage location at order isn&apos;t tended: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Order position expected no goods receipt: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Only final delivered positionen ar allowed: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Storage data of materials aren&apos;t tended: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Document for GR-Booking: &amp;1 Attention: TO not generated yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Order has no valid position: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Storage place is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Invalid storage place: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Storage place and TO stoage place aren&apos;t identical: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Good receipt date is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>GR date have to be actual or previos month. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Booking date have to be actual or previos month. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Invalid Selection: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Storage place have to be record for confirmation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Unlocated order position in table.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>GI-Posting ok: &amp;1 TO: &amp;2 ok and confirmed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Invalid cost center &amp;1 &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Order with wrong state: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Order type not provided: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Order type provided: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Invalid account assignment: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Confirmee is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>GAZ identification number &amp;1 is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Document for GI-Booking: &amp;1 Attention: TO not genereted yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Please enter storage place.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Please enter warehouse number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Invalid storage type: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Please enter storage type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Please enter material number or storage place.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Account assignment is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>No stock available: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Quantity isn&apos;t available: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>GI-Booking aborted: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Invalid cost center: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Invalid GAZ identification number. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>No stock available: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>TO receipted + ok: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Located no valid quants. &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Target storage place is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Invalid Warehouse number: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Storage place is vacant: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Located no quant for relocation: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Qunatity oversized: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>No To available for storage type &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Plant is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>TO of storage type &amp;1 will not handle in place.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>TA &amp;1 not located or already receipted. (storage type: &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Invalid bar code: check digit in&apos;t ok. AI: &amp;1 Data: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Material &amp;1 has no stock at storage &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>TO ok: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Storage unit number &amp;1 is lacking.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>TO to I-Point inexistent or is out of order: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>GR-Booking ok: &amp;1 TO receipted + ok: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Order &amp;1 hasn&apos;t required state.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Order &amp;1 has no valid position.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Order &amp;1 is inexistent.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>GR-Booking KUPL ok: &amp;1 TO not genereted yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Only material type KUPL is allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>FAUF number is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>No authorization for transaction: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Batch number is required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Material with material type &amp;1 isn&apos;t allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Unlocated batch number &amp;1! (material: &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>No storage unit  found to: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Order isn&apos;t provided for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>GR-Booking ok: &amp;1 TO not generated yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Q-Order is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Relocation aborted: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Relocation document ok: &amp;1 TO ok: &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Relocation booking ok: &amp;1 TA not generated yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Batch &amp;1 is lacking. (material: &amp;2 storage location: &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Is short of stock: &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Error material master modification: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Relocation booking aborted: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Material &amp;1 is lacked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Material &amp;1 is lacked for plant &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Material &amp;1 is lacked for storage location &amp;2. (plant &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>No inventory required, because no difference in stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>This quantity can post only with inventory!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>Material &amp;1 expanded; Document &amp;2 generate; TO &amp;3 generate;TO &amp;4 generate</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Material &amp;1 expanded; Document &amp;2 generate; To error: &amp;3; TO &amp;4 generate.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Material &amp;1 expanded; document &amp;&quot; generate; TO &amp;3 generate; TO error: &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Material &amp;1 expanded; Document &amp;2 generate; To error: &amp;3; TO error: &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Material &amp;1 expanded; &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>SU-No. &amp;1 conflicts with number range of another storage</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Please maintain parameter BUK (company code) in your user parameters!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Please maintain parameter WRK (plant) in your user parameters!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Please maintain parameter LAG (storage location) in your user parameters!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Please maintain parameter LGN (warehouse number) in your user parameters!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Please maintain parameter LGT (storage type) in your user parameters!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Storage number &amp;1 does not exist for plant &amp;2 and storage &amp;3!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Only non WM locations are allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Difference compared to book quantity &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Difference compared to book quantity - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Maintain both Count Quantity and UOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>No Data for Updation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Maintain Both Warehouse and Inventory Record</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Inventory number &amp; does not exist (new selection required)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>No items to be processed for inventory number &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>&amp; bins cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>1 bin cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>No storage bin selected for clearing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Inventory record &amp; already cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Inventory &amp; is not yet activated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Maintain Material / Plant / Stor.Loc</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Maintain all fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>No data for the above Material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Maintain both Mvt.type and Issue Qty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Movement types 201 / 261 are only allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Special Stock Indicator &amp; not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Cost Center is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Recipient is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>WBS is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>Material Document Posted(&amp;/&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Batch &amp; &amp; &amp; &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Maintain UOM...!!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>Enter material no. for batch no. &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Company code could not be detected from plant &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>Movement Type field in blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Source Storage Location is Invalid..!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Destination Storage Location is Invalid..!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Material not belong to Source S.Loc</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>GR-FERT:&amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Material flagged for Deletion at Client Level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>Please Enter Material Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Total Weight Exceeded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>Transfer Order Created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>Transfer Order not Created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Material-Plant Combination Invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Total Weight Exceeded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>192</MSGNR>
+     <TEXT>Please fill SU/SU Unit/Storage Unit Type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>193</MSGNR>
+     <TEXT>Material Don&apos;t belong to Destination Storage Location</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>194</MSGNR>
+     <TEXT>Please Select One TR only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>195</MSGNR>
+     <TEXT>Transfer Order &amp;1 Created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>196</MSGNR>
+     <TEXT>Warehouse &amp; not maintained for material &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>197</MSGNR>
+     <TEXT>Material Not Active</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>Material &amp; not maintained in plant &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>No data available for criteria specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Select One TR Only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Select atleast one TR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Movement types 951 is not allowed for your plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Total of scheduled quantities exceeds quantity to be placed into storage</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>GR-FERT: &amp;1 posted TO: &amp;2 / &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Storage unit &amp;1 has to be on an I-point!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Date has to be &lt;= actual month. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Material &amp;1 is not enclosed in order &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>Batch &amp;1 is not enclosed in order &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Material has to be obtained from plant &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>You may only specify at most one storage type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>Transfer Order &amp;1 Created for TR &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>Enter a storage type for the storage bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>No bin section coded in the storage bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Storage bin &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>Storage section &amp; &amp; &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>Assign a storage type to the storage section</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>217</MSGNR>
+     <TEXT>Storage bin &amp; is currently being processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>218</MSGNR>
+     <TEXT>Data has been changed in the meantimne (check activity)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>219</MSGNR>
+     <TEXT>Quant no longer exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>Please select atleast one item</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>221</MSGNR>
+     <TEXT>You dont have authorization to warehouse number &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>222</MSGNR>
+     <TEXT>Please enter a storage bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>223</MSGNR>
+     <TEXT>INVALID STORAGE BIN: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>224</MSGNR>
+     <TEXT>Picked Quantity is Required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>225</MSGNR>
+     <TEXT>Material Number is Required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>226</MSGNR>
+     <TEXT>Batch Number is Required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>227</MSGNR>
+     <TEXT>Invalid Material-/Batch-No for TO &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>228</MSGNR>
+     <TEXT>Lower limit is greater than upper limit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>229</MSGNR>
+     <TEXT>Maintain From Date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Mismatch in Material / Batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>231</MSGNR>
+     <TEXT>Warehouse Number &amp; Does Not Exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>232</MSGNR>
+     <TEXT>Default values for warehouse number &amp; are not defined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>This activity is not available in lean WM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>Movement type &amp; is not allowed (check your entry)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>Batch &amp; of material &amp; is already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>Material &amp; uses product units. Batch specification required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>Status management is active. Shelf life exp.date not specified in batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>System cannot find source storage bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>Enter No.Colis</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>Entry for transaction &amp;1 is missing in table ZMDE_OO_SCREEN_1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>Please enter delivery note!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>Delivery note &amp;1 not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>243</MSGNR>
+     <TEXT>Production order &amp;1 is not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>244</MSGNR>
+     <TEXT>Batch &amp;1 for material &amp;2 is not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>245</MSGNR>
+     <TEXT>Please enter value for &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>246</MSGNR>
+     <TEXT>No documents for order &amp;1 material &amp;2 batch &amp;3 available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>247</MSGNR>
+     <TEXT>Delivery note &amp;1 has already been charged!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>248</MSGNR>
+     <TEXT>Only one of Mateial/Batch/Process Order/Inspection Lot to be enetered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>249</MSGNR>
+     <TEXT>Material and Batch combination is not available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Please select lesser quantity than the available stock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Lagertyp &amp;1 existiert nicht für Lagernummer &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Material &amp;1 does not exist for plant &amp;2 and storage location &amp;3!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>Storage location &amp;1 does not exist for plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>Material &amp;1 not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: Responses not OK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>256</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: Responses not OK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>257</MSGNR>
+     <TEXT>GR-FERT:&amp;1 GR-HALB:&amp;2 GI-HALB+GI-VERP: &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>258</MSGNR>
+     <TEXT>Quantity transfer posting for inspection lot &amp;1: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>259</MSGNR>
+     <TEXT>Quantity transfer posting: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>Process order &amp;1 is not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>261</MSGNR>
+     <TEXT>Material &amp;1 is not part of order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>262</MSGNR>
+     <TEXT>Target bin is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>263</MSGNR>
+     <TEXT>Target bin is incorrect</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>264</MSGNR>
+     <TEXT>Only storage bin CULTIVOS, PURIF, STPM or PREP.MAT are allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>265</MSGNR>
+     <TEXT>Proces order is required !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>266</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMDE</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

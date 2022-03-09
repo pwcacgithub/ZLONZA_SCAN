@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Warehouse Management HU check</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZWM_HUTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZWM_HU</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZWM_HU_VALIDATE</FUNCNAME>
+     <SHORT_TEXT>Validate HU</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BARCODE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LABEL_TYPE_RANGE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTLABEL_TYPE_RANGE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_EXIDV</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EXIDV</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_BARCODE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_LABEL_CONTENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSITS_LABEL_CONTENT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BARCODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Barcode for Scanning</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LABEL_TYPE_RANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table of ZSLABEL_TYPE_RANGE.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_EXIDV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>External Handling Unit Identification</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error message return data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_BARCODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Barcode for Scanning</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_LABEL_CONTENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Label Content</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

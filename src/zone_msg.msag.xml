@@ -1,0 +1,2185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZONE_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Project One</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Invalid Input for company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>User does not have &amp;1 authorisation for company code &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>HU data missing in Inventory Item table.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error in displaying the report using Facotory Method</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No scanned data available for the Inventory document number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>ALV error - Unable to setup column property for field &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>HU data missing in Inventory header table.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>The start date &amp; and end date &amp; is invalid with the SO creation date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>The combination of Material and Customer Material number is wrong</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Invalid customer material number &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Please enter mandatory selection criteria &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Sold-to Party &amp;1 doest not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Ship-to Party &amp;1 doest not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Record existed with same key combination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No records exist with the selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Information Record &amp;1 is locked by &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material number &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Combination &amp;1 and &amp;2 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Capsugel Catalog Number could not be changed for saved records</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Effective Start Date must be earlier than Effective End Date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Effective dates overlapped with exsiting record from &amp;1 to &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid input: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Records are successfully saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>No line found on selection criterion &amp;1 and &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Manufacturing Plant &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Duplicated plant &amp; input</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Duplicated Catalog Number &amp; input</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Combination &amp;1 and &amp;2 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Delivery Priority not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Days must be only number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Item usage not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Invalid domain name.Always use LONZA.COM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Material Conversion Error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Invalid Temperature Recorder: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Invalid Label Type: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Invalid Color Code: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Sales organization &amp;1 doest not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>No authorization to sales organization &amp;1 user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Cannot open file &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Uploaded File Is Empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Specify a Valid File Name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Start line no. can&apos;t lager than End line no.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Start and End line can&apos;t be negative</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Material can not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Material &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Customer Catalog Number can not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Delivery Priority not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Item usage not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Units of Measurement not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>the fix value not valid: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Value &amp;1 does not exist in dropdown value table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Can&apos;t lock the table!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Error File Downloaded to &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>The data is not a number: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Uploaded Data Is Empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Change database error &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Error in generating Smartform</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Factoring relevant customer couldn&apos;t be found with your sel. parameters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Billing documents are not available for customers</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Some records removed because of lack of authorisation for plant/s : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>You are not authorised for plant : &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>No authorization for warehouse : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>You are not authorised for cost center : &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>You are not authorized for the profit center/s : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>No authorization for movement type : &amp;1 to do the postings</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>You are not authorized for sales organisation/s : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>You are not authorized for the activities 1 and 2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>No record exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Invalid file name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Conversion failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Error in displaying screen status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Please specify sales order, or process order, or CSR number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Act. Gds Mvmnt Date not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Production order number not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Ship To Country not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Ship to region not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Shipping Point not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Route not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Batch No. not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Storage Location not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>No data with pricing date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>No data with promised delivery date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Ship-to-Party doesnt Exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Plant not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Storage Location not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Invalid Material Number - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Conversion error in the material &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>No data was selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>&amp;1-Error : Material &amp;2 could no be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>&amp;1 -Success :Material &amp;2 updated.Printroll field was updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>material &amp;1 is not maintained in production BOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Artwork Reference Material not maintained in ZVV_PARAM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>&amp;1 -Error, material could not be created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Unable to read the details of the artwork reference material.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Error in generating new material number in SAP</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>&amp;1 -Success :Material &amp;2 was created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Reference material is not extended to required plants</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Unable to determine plant detail from the artwork reference material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>The material could not be extended to the plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Unable to update characteristic Value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Please select a line.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Please select a single line.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>You are not authorized for the company code/s : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>No authorization for warehouse &amp;1 and storage type/s &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>You have no authorization for this transaction in plant &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Plant data is missing in the file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Sales organization &amp;1 doest not exist in ZVV_PARAM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Plant is Initial. Please enter the plant.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Material &amp;1 already exists in the system with the same roll code.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Output type is not triggered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Error in issuing output type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Please click &apos;Enter&apos; first to generate call off number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Please enter valid QA status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Please enter valid QA reason code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Please enter valid Temperature Recorder Value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Pallet numbers are missing for certain items - Check IDOC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Material cant be used, Artwork1 material is specified but not ordered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Material cant be used, Artwork1,2 material is specified but not ordered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Material cant be used, Artwork2 material is specified but not ordered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Error in unpacking the cartons from pallets</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Material &amp;1 sent by 3PL doesn’t match with material packed in HU &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Requested and responded Carton barcode numbers don&apos;t match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Quality Inspection stock is picked by 3PL for external/Non-IC customer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Stock type confirmed by 3PL for delivery item &amp;1 &amp;2 doesn&apos;t match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>Mixed stock is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>The requested cartons &amp;1 and the dispatched cartons &amp;2 do not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Requested and responded Carton sublot numbers don&apos;t match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Error in unpacking the carton &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Error in packing the carton &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>&amp;1 is not a valid delivery or a Purchase order number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>HU Assignment and PGI was successfully completed .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Error in updating ZVHUPICK table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>HUs are already assigned to the delivery. Please unassign the HUs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>The request entry could not be determined in the table ZVHUPICK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Not all pallets can be re-arranged</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Mandatory status information is missing in the idoc</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Stock type of cartons don&apos;t match for Inbound Delivery</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Mismatch in pallets confirmed by 3PL and the recieved pallets</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>PGR was successfully carried out for the delivery &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Error in updating loading point status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Loading Point status updated succsessfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>The quantity and batch in PO do not match with the HU batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Pallet status is not provided for all the pallets</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Invalid Status type on pallet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Please maintain reference packaging material in ZVV_PARAM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Issue in creating pallet in SAP</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>No new pallets were created for unknown reason</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Error in creating inbound delivery for the purchaseorder &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>PGR was successfully carried out for the PO &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Unknown error in post goods receipt of the delivery &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Unable to determine Material and Batch in MCH1 table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Maintain ZVV_PARAM entries for colorant raw material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>No new cartons were created for unknown reason</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>QA release can not be carried out since some HUs are in transit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>No Handling Units found. Usade decision is failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>AUFK Table update failed for unknown reason.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Usage decision was successfully updated in the Insp.lot &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>IDoc failed. ZVV_PARAM entry is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>Error in generating batch - refer enh program ZC_ENH_CREATE_BATCH</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>Check if the required output was determined( ZPED in case of IC)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>No Function Module Assigned, please check SF &apos;ZL_RAW_MATERIAL_LABEL&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Issue Occurred while printing SF &apos;ZL_RAW_MATERIAL_LABEL&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>No Material Document Exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Error occurred while Converting Material number, please check &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Mandatory HU field is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Invalid QA status field &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Invalid Reason Code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Invalid Temperature Recorder &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Invalid Picking Text &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Invalid Handling Unit.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>VEKP Lock error - HU not updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>Unknown error in modifying VEKP with HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>HU &amp;1 Updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Error : SFDC Update Failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Mandatory PO field missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>Invalid PO number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Invalid Date &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>AUFK Update failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Unknown error while updating AUFK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>PO &amp;1 was successfully updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>You do not have create authorization for plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>The batch in PO do not match with the HU batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Please maintain material group for Colorants/Gelatins</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>Prefix mismatch - Check table ZLRM_SUBLOT_CTRL</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Carton Nos recieved at pallet don&apos;t match with actual cartons- Check IDOC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>No batch information is available - Check idoc</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>PGI is not allowed for subcontracting scenario for Colmar 3PL</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Unable to determine colorant mat. per unit qty- check packaging inst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Error in updating vendor certificate in the the delivery &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>192</MSGNR>
+     <TEXT>Unable to determine assigned HU for the IBD &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>193</MSGNR>
+     <TEXT>Unable to determine reference delivery number from Mat. Doc.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>194</MSGNR>
+     <TEXT>Enter QA reason code for the HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>195</MSGNR>
+     <TEXT>HU does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>196</MSGNR>
+     <TEXT>Maintain entries in the table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>197</MSGNR>
+     <TEXT>No valid entry found in the table &amp;1 for plant &amp;2 and QA status &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>Check the incompleteness log for the delivery &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>No data available for the given selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>The selection has more than 50 HUs for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>The output &amp;1 is not determined in the selected HUs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Storage location is missing in PO &amp;1 item &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Error in converting spool to PDF</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Maintain the parameter ID WRK in the user profile</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>No authorization to run the transaction for the plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Confirmation Key is incorrectly maintained for PO &amp;1 item &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>The bag &amp;1 is already assigned to pallet &amp;2 with 3PL pallet ID &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>The HU &amp;1 is not in planned status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>The HUs are assigned to multiple inbound Del.Manual Correction required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Please pass Carton/Pallet/UDcode field value for any scenario</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>Please check Plant code data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>User &amp;1 doesnot be authorized to synchronize plant &amp;2 Stock.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>Invalid item number for the PO &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Invalid PalletID &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>Error in reading the barcode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>Incorrect input for Qty. Use &apos;.&apos; as decimal separator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>217</MSGNR>
+     <TEXT>The HU count entered does not match with the HU count from label</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>218</MSGNR>
+     <TEXT>Error in  determining the HU Count from the label</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>219</MSGNR>
+     <TEXT>Unable to determine sap batch for vendor batch &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>Unable to determine per unit qty for the bags</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>221</MSGNR>
+     <TEXT>Maintain gelatin small bag packing material in ZVV_PARAM &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>222</MSGNR>
+     <TEXT>Internal error in material conversion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>223</MSGNR>
+     <TEXT>Maintain non hu storage location in ZVV_PARAM &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>224</MSGNR>
+     <TEXT>Some sublots are created in SAP already</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>225</MSGNR>
+     <TEXT>The HUs were packed to more than 1 pallet - Manual Check</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>226</MSGNR>
+     <TEXT>HUs were created and assigned to the delivery &amp;1 : Manual Check</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>227</MSGNR>
+     <TEXT>HU qty is more than the PO open qty &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>228</MSGNR>
+     <TEXT>No valid Material found for entered characteristics.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>229</MSGNR>
+     <TEXT>Kindly enter characteristic value for selection.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Error occured while displaying Popup to enter Material Characteristic.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>231</MSGNR>
+     <TEXT>Material no.and Plant are Required field. Kindly enter.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>232</MSGNR>
+     <TEXT>No valid material found with available stock from Table MARD.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>BDC error while updating the inspection lot &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>You do not have view authorization for plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>Couldn&apos;t identify the inbound scenario - Maintain ZVV_PARAM correctly</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>Mandatory segment data missing : Z1LPHUX</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>Mandatory segment data missing : Z1LTORI</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>Unkown error in BAPI while creating the Process Order</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>Plant is not maintained In ZVV_PARAM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>Material type is Invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>All HUs are WIP. No further processing required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>PGI is already completed for the delivery &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>243</MSGNR>
+     <TEXT>Unable to ISO CODE &amp;1 to SAP UNIT.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>244</MSGNR>
+     <TEXT>Material Lenght should be less than or equal to 8 char : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>245</MSGNR>
+     <TEXT>Missing Mandatory header data in input</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>246</MSGNR>
+     <TEXT>Missing Material Kit info for the process order &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>247</MSGNR>
+     <TEXT>Missing Auxilliary Packaging Material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>248</MSGNR>
+     <TEXT>Missing Carton Packaging Material.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>249</MSGNR>
+     <TEXT>Please note : There are errors in processing of some HUs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Error updating HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Invalid Delivery Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Enter Delivery Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>Invalid delivery item</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>Error :Delivery entered is not a return delivery</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>IDOC Failed : Barcode value is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>256</MSGNR>
+     <TEXT>Error creating HU - Reference &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>257</MSGNR>
+     <TEXT>Error creating new carton with respect to HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>258</MSGNR>
+     <TEXT>Invalid HU: HU does not have posted status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>259</MSGNR>
+     <TEXT>Material &amp;1 and Batch &amp;2 missing in HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>Shortage of qty - Material &amp;1 Batch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>261</MSGNR>
+     <TEXT>Return process successfully completed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>262</MSGNR>
+     <TEXT>Storage location value is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>263</MSGNR>
+     <TEXT>Plant value is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>264</MSGNR>
+     <TEXT>Destination storage location is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>265</MSGNR>
+     <TEXT>Scenario ID is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>266</MSGNR>
+     <TEXT>Scenario ID is inaccurate : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>267</MSGNR>
+     <TEXT>Invalid Packaging Material : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>268</MSGNR>
+     <TEXT>HU - Internal number and external ID is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>269</MSGNR>
+     <TEXT>Invalid HU ID for barcode &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>270</MSGNR>
+     <TEXT>Packaging material is more than 8 char long : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>271</MSGNR>
+     <TEXT>Failed to select HUs based on sublots</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>272</MSGNR>
+     <TEXT>IDOC failed: Missing sublot number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>273</MSGNR>
+     <TEXT>Mandatory data missing in the segment &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>274</MSGNR>
+     <TEXT>Order type should be ZP03,ZP03 &amp; PI01</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>275</MSGNR>
+     <TEXT>ZVV_PARAM entry is missing - look up name &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>276</MSGNR>
+     <TEXT>HU GR failed - BDC failure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>277</MSGNR>
+     <TEXT>QA Stat. Reason code can be updated at Carton level only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>278</MSGNR>
+     <TEXT>Please provide the valid QA Reason Code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>279</MSGNR>
+     <TEXT>Please provide the valid QA Status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>280</MSGNR>
+     <TEXT>Given HUs got updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>281</MSGNR>
+     <TEXT>HU is already blocked, QA Status and Reason code got updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>282</MSGNR>
+     <TEXT>QA status is not valid for plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>283</MSGNR>
+     <TEXT>Target stock category missing for the event &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>284</MSGNR>
+     <TEXT>HU Update failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>285</MSGNR>
+     <TEXT>Enter valid QA Status to move stock to Scrap / Blocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>286</MSGNR>
+     <TEXT>HU &amp; got updated with unique id &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>287</MSGNR>
+     <TEXT>Message type &amp;1 is not handled in this process code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>288</MSGNR>
+     <TEXT>Order no is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>289</MSGNR>
+     <TEXT>Order Type is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>290</MSGNR>
+     <TEXT>Schedule start date is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>291</MSGNR>
+     <TEXT>Schedule end date is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>292</MSGNR>
+     <TEXT>Material is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>293</MSGNR>
+     <TEXT>Batch is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>294</MSGNR>
+     <TEXT>Amount is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>295</MSGNR>
+     <TEXT>UOM is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>296</MSGNR>
+     <TEXT>PO Confirmed &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>297</MSGNR>
+     <TEXT>Enter Process Order Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>298</MSGNR>
+     <TEXT>PO Status Updated Successfully &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>299</MSGNR>
+     <TEXT>PO Status Update Failed &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>PO Header user status updated successfully &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Enter status profile</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Enter Status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Please enter HUs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>HU &amp;1 already exists with barcode &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>Plant is mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>Scan Failed: Quality Stock can not be processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>Enter a Valid Plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>The reference material is not extended to the required views for plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>&amp;1 -Error, Material &amp;1 was created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>No data found for the given Selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>311</MSGNR>
+     <TEXT>You do not have authorization for Plant &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>No status data found for status profile &amp; &amp; language &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>313</MSGNR>
+     <TEXT>Invalid Production version: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Process Order status profile &amp; is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>315</MSGNR>
+     <TEXT>No valid Production version found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>316</MSGNR>
+     <TEXT>Process Order: &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>317</MSGNR>
+     <TEXT>Pallet information is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>318</MSGNR>
+     <TEXT>Pallet and Carton information is missing - UEVEL</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>319</MSGNR>
+     <TEXT>Mandatory Carton header information is missing - VENUM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>320</MSGNR>
+     <TEXT>Carton Item mandatory information is missing - VENUM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>321</MSGNR>
+     <TEXT>Carton information missing in SAP for HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>322</MSGNR>
+     <TEXT>Carton &amp;1 is not there on the pallet . Check Idoc information.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>323</MSGNR>
+     <TEXT>Carton &amp;1 is already empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>324</MSGNR>
+     <TEXT>HU &amp;1 is not available at the storage location &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>325</MSGNR>
+     <TEXT>Carton &amp;1 is currently on a pallet &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>326</MSGNR>
+     <TEXT>Mandatory Pallet external id information is missing .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>327</MSGNR>
+     <TEXT>Mandatory Carton external id information is missing .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>328</MSGNR>
+     <TEXT>Mismatch in source storage location at header and item - Check IDOC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>329</MSGNR>
+     <TEXT>You are not authorised for the Order type(s) &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>330</MSGNR>
+     <TEXT>Few Order types removed due to lack of authorization &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>331</MSGNR>
+     <TEXT>No data available for the given selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>332</MSGNR>
+     <TEXT>No display authorization for Sales Org. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>333</MSGNR>
+     <TEXT>Carton information missing in IDOC for HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>334</MSGNR>
+     <TEXT>Fill the Accounting period MM/YYYY</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>335</MSGNR>
+     <TEXT>No Reservations are found for &amp; to Dereserve</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>336</MSGNR>
+     <TEXT>Process order Cannot be saved, Sales Order delivery priority with 96 &amp; 97</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>337</MSGNR>
+     <TEXT>Process order Cannot be saved, Sales Order delivery priority with 96 &amp; 97</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>338</MSGNR>
+     <TEXT>Please provide the Delivery Number or Process Order</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>339</MSGNR>
+     <TEXT>All Pallets of &amp; got dereserved from picking table. &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>340</MSGNR>
+     <TEXT>Please maintain entries in Control table ZCTIDOC_RESP for message &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>341</MSGNR>
+     <TEXT>Control record could not be determined for message type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>342</MSGNR>
+     <TEXT>Idoc data could not be determined for given user input.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>343</MSGNR>
+     <TEXT>No IDOC were selected for given selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>344</MSGNR>
+     <TEXT>User does not have authorization to distibute message type &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>345</MSGNR>
+     <TEXT>One or more Process order update failed for Sales order &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>346</MSGNR>
+     <TEXT>Change header table read failed for Sales order &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>347</MSGNR>
+     <TEXT>No records were read from the file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>348</MSGNR>
+     <TEXT>Invalid Status - Process Order cannot be changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>349</MSGNR>
+     <TEXT>Order Number is missing in the row number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>350</MSGNR>
+     <TEXT>Confirmation number is missing in the row number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>351</MSGNR>
+     <TEXT>Counter number is missing in the row number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>352</MSGNR>
+     <TEXT>File looks Good</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>353</MSGNR>
+     <TEXT>Invalid Process Order Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>354</MSGNR>
+     <TEXT>Call-Off ID could not be generated due to technical issue!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>355</MSGNR>
+     <TEXT>Please enter a Call-Off ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>356</MSGNR>
+     <TEXT>Call-Off ID &amp; does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>357</MSGNR>
+     <TEXT>Please plan before triggering IDOC.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>358</MSGNR>
+     <TEXT>IDOC Triggered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>359</MSGNR>
+     <TEXT>IDOC did not triggered because of sone missing data.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>749</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZONE_MSG</ARBGB>
+     <MSGNR>759</MSGNR>
+     <TEXT>No Data Found for Caddy Jar</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

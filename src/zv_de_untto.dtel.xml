@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZV_DE_UNTTO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Production negative tolerance</DDTEXT>
+    <REPTEXT>Production negative tolerance</REPTEXT>
+    <SCRTEXT_S>Prd neg to</SCRTEXT_S>
+    <SCRTEXT_M>Prd nega tolerance</SCRTEXT_M>
+    <SCRTEXT_L>Production negative tolerance</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000005</LENG>
+    <DECIMALS>000002</DECIMALS>
+    <OUTPUTLEN>000006</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

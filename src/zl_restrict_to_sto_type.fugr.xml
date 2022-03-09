@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>TO creation</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZL_RESTRICT_TO_STO_TYPETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZL_RESTRICT_TO_STO_TYPE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZL_RESTRICT_TO_STO_TYPE</FUNCNAME>
+     <SHORT_TEXT>Restrict the TO creation based on storage types</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LGNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BESTQ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BESTQ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LGTYP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>LGTYP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_MSG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR100</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number / Warehouse Complex</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BESTQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stock Category in the Warehouse Management System</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LGTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error message</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZL_TO_CREATE_SINGLE</FUNCNAME>
+     <SHORT_TEXT>Create a transfer order with one item and with sto type validation check</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LGNUM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BWLVS</PARAMETER>
+       <DBFIELD>LTAK-BWLVS</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BETYP</PARAMETER>
+       <DBFIELD>LTAK-BETYP</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BENUM</PARAMETER>
+       <DBFIELD>LTAK-BENUM</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <DBFIELD>LTAP-MATNR</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WERKS</PARAMETER>
+       <DBFIELD>LTAP-WERKS</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LGORT</PARAMETER>
+       <DBFIELD>LTAP-LGORT</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CHARG</PARAMETER>
+       <DBFIELD>LTAP-CHARG</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BESTQ</PARAMETER>
+       <DBFIELD>LTAP-BESTQ</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SOBKZ</PARAMETER>
+       <DBFIELD>LTAP-SOBKZ</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SONUM</PARAMETER>
+       <DBFIELD>LTAP-SONUM</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LETYP</PARAMETER>
+       <DBFIELD>LTAP-LETYP</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ANFME</PARAMETER>
+       <DBFIELD>RL03T-ANFME</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ALTME</PARAMETER>
+       <DBFIELD>LTAP-ALTME</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WDATU</PARAMETER>
+       <DBFIELD>LTAP-WDATU</DBFIELD>
+       <DEFAULT>SY-DATUM</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VFDAT</PARAMETER>
+       <DBFIELD>LTAP-VFDAT</DBFIELD>
+       <DEFAULT>SY-DATUM</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ZEUGN</PARAMETER>
+       <DBFIELD>LTAP-ZEUGN</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LZNUM</PARAMETER>
+       <DBFIELD>LTAK-LZNUM</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SQUIT</PARAMETER>
+       <DBFIELD>RL03T-SQUIT</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NIDRU</PARAMETER>
+       <DBFIELD>RL03A-NIDRU</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_DRUKZ</PARAMETER>
+       <DBFIELD>T329F-DRUKZ</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LDEST</PARAMETER>
+       <DBFIELD>LTAP-LDEST</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WEMPF</PARAMETER>
+       <DBFIELD>LTAP-WEMPF</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ABLAD</PARAMETER>
+       <DBFIELD>LTAP-ABLAD</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VLTYP</PARAMETER>
+       <DBFIELD>LTAP-VLTYP</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VLBER</PARAMETER>
+       <DBFIELD>LTAP-VLBER</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VLPLA</PARAMETER>
+       <DBFIELD>LTAP-VLPLA</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VPPOS</PARAMETER>
+       <DBFIELD>LTAP-VPPOS</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VLENR</PARAMETER>
+       <DBFIELD>LTAP-VLENR</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VLQNR</PARAMETER>
+       <DBFIELD>LTAP-VLQNR</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NLTYP</PARAMETER>
+       <DBFIELD>LTAP-NLTYP</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NLBER</PARAMETER>
+       <DBFIELD>LTAP-NLBER</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NLPLA</PARAMETER>
+       <DBFIELD>LTAP-NLPLA</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NPPOS</PARAMETER>
+       <DBFIELD>LTAP-NPPOS</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NLENR</PARAMETER>
+       <DBFIELD>LTAP-NLENR</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NLQNR</PARAMETER>
+       <DBFIELD>LTAP-NLQNR</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_RLTYP</PARAMETER>
+       <DBFIELD>LTAP-RLTYP</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_RLBER</PARAMETER>
+       <DBFIELD>LTAP-RLBER</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_RLPLA</PARAMETER>
+       <DBFIELD>LTAP-RLPLA</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_RLQNR</PARAMETER>
+       <DBFIELD>LTAP-RLQNR</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_UPDATE_TASK</PARAMETER>
+       <DBFIELD>RL03A-VERBU</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_COMMIT_WORK</PARAMETER>
+       <DBFIELD>RL03B-COMIT</DBFIELD>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BNAME</PARAMETER>
+       <DBFIELD>LTAK-BNAME</DBFIELD>
+       <DEFAULT>SY-UNAME</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KOMPL</PARAMETER>
+       <DBFIELD>RL03B-KOMPL</DBFIELD>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SOLEX</PARAMETER>
+       <DBFIELD>LTAK-SOLEX</DBFIELD>
+       <DEFAULT>0</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERNR</PARAMETER>
+       <DBFIELD>LTAK-PERNR</DBFIELD>
+       <DEFAULT>0</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_AUSFB</PARAMETER>
+       <DBFIELD>LTAK-AUSFB</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SGT_SCAT</PARAMETER>
+       <DBFIELD>LTAP-SGT_SCAT</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TANUM</PARAMETER>
+       <DBFIELD>LTAK-TANUM</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_LTAP</PARAMETER>
+       <DBFIELD>LTAP</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_ERRMSG</PARAMETER>
+       <TYP>CHAR100</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_LTAK</PARAMETER>
+       <DBSTRUCT>LTAK_VB</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_LTAP_VB</PARAMETER>
+       <DBSTRUCT>LTAP_VB</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_TO_CREATED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BWLVS_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BETYP_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BENUM_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BETYP_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>FOREIGN_LOCK</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>VLTYP_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>VLPLA_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>VLTYP_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NLTYP_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NLPLA_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NLTYP_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>RLTYP_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>RLPLA_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>RLTYP_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>SQUIT_FORBIDDEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>MANUAL_TO_FORBIDDEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>LETYP_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>VLPLA_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NLPLA_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>SOBKZ_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>SOBKZ_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>SONUM_MISSING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BESTQ_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>LGBER_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>XFELD_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>DATE_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>DRUKZ_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>LDEST_WRONG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>UPDATE_WITHOUT_COMMIT</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_AUTHORITY</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>MATERIAL_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>LENUM_WRONG</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BWLVS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BETYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Requirement Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BENUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Requirement Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material no.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LGORT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Location</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CHARG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Batch</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BESTQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stock category</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SOBKZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Special stock indicator</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SONUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Special stock number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LETYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage unit type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ANFME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Requested Qty</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ALTME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unit of measure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WDATU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Goods receipt date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VFDAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Expiration date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ZEUGN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Certificate number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LZNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Additional ref.number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SQUIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Immed.confirmat.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NIDRU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Do not print</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_DRUKZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Print code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LDEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Printer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WEMPF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Goods Recipient</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ABLAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unload.point</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VLTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Source storage type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VLBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Source storage section</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VLPLA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Source storage bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VPPOS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Position in source storage bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VLENR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Source storage unit</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VLQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Src.quant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NLTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Destination storage type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NLBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Destination storage section</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NLPLA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Destination Storage Bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NPPOS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Position in destionation storage bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NLENR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dest.storage unit</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NLQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dest.quant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_RLTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return storage type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_RLBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return storage area</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_RLPLA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return storage bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_RLQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return quant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_UPDATE_TASK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicator: update via update task</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_COMMIT_WORK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicator whether COMMIT WORK in function module</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User who is generating the TO</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KOMPL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Only generate TO if requested amount supplied</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SOLEX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Planned Transfer Order Processing Time from External System</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personnel Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_AUSFB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bemerkung zur Ausführung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SGT_SCAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bestandssegment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TANUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transfer order number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LTAP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transfer order item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_ERRMSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Message for storage type validation</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_LTAK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der erzeugten TA-Köpfe</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_LTAP_VB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der erzeugten TA-Positionen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_TO_CREATED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No TO generated</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BWLVS_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Mov.type incorrect</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BETYP_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Req.type does not match movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BENUM_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Req.number missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BETYP_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Req.type missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FOREIGN_LOCK</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>An SAP block has been set by another user</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VLTYP_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Source storage type contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VLPLA_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Source storage bin contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VLTYP_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Src.storage type required if bin is set</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NLTYP_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Destination storage type contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NLPLA_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Destination storage bin contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NLTYP_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Dest.storage bin required if bin is set</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RLTYP_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Return storage type contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RLPLA_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Return storage bin contradicts movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RLTYP_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Ret.storage type required if bin is set</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SQUIT_FORBIDDEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Immediate conf.not allowed for movement type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MANUAL_TO_FORBIDDEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Manual transfer order not allowed</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LETYP_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Storage unit type does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VLPLA_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Src.storage bin for item missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NLPLA_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Dest.storage bin for item missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SOBKZ_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Special stock indicator does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SOBKZ_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Special stock indicator missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SONUM_MISSING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Special stock number is missing</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BESTQ_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Stock category does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LGBER_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Stor.section does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XFELD_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Incorrect value for checkbox</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATE_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Incorrect Date Entry</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DRUKZ_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Print code does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LDEST_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Printer does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPDATE_WITHOUT_COMMIT</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Update via update task only using Commit</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_AUTHORITY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No authorization</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Material not maintained for this process</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LENUM_WRONG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>SU number cannot be converted</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

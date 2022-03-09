@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>ITS Label Type</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FG</DOMVALUE_L>
+     <DDTEXT>FG Carton Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RAW</DOMVALUE_L>
+     <DDTEXT>RAW Carton Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>WIP</DOMVALUE_L>
+     <DDTEXT>WIP Carton Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PAL</DOMVALUE_L>
+     <DDTEXT>Pallet Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SU</DOMVALUE_L>
+     <DDTEXT>SU Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SER</DOMVALUE_L>
+     <DDTEXT>Serial Label</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDITS_LABEL_TYPE</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NON</DOMVALUE_L>
+     <DDTEXT>Non-batch Managed Label</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

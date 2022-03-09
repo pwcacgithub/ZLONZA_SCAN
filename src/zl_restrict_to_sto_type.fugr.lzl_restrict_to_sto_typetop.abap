@@ -1,0 +1,3 @@
+FUNCTION-POOL ZL_RESTRICT_TO_STO_TYPE.      "MESSAGE-ID ..
+
+* INCLUDE LZL_RESTRICT_TO_STO_TYPED...       " Local class definition

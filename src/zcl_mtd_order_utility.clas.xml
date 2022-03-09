@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MTD_ORDER_UTILITY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Process order Mangement</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MTD_ORDER_UTILITY</CLSNAME>
+     <CMPNAME>GET_PROCORD_BY_BATCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get process order by batch number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MTD_ORDER_UTILITY</CLSNAME>
+     <CMPNAME>IS_ORDER_RELEASED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the process order was released</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MTD_ORDER_UTILITY</CLSNAME>
+     <CMPNAME>ORDER_READ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read order data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

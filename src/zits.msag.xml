@@ -1,0 +1,3212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZITS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>ITS Scanning</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Transaction &amp;1 is not a scanning program</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Transaction &amp;1 is blocked for using</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Transaction &amp;1 is for inventory operation, your login not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Transaction &amp;1 is for warehouse operation, your login not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Login plant &amp;1 is not workable for transaction &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Staging area &amp;1 of warehouse &amp;2 is not for goods issue</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Staging area &amp;1 of warehouse &amp;2 is not for goods receipt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Document &amp;1 is not an outbound delivery !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Pick of delivery &amp;1 has not been completed yet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>PGI of delivery &amp;1 has been completed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Ship lane &amp;1 doesn&apos;t match that of outb. delivery &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&amp;1 PGI&apos;ed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 is not a sample batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>&amp;1 is not a finish goods batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Batch &amp;1 does not exist !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp;1 is not a WIP batch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Order &amp;1 has not been released !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Can&apos;t find &amp;1 in unrestrict use!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>The QI status for batch &amp;1 is not OK !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Process order &amp;1 was not allocated to booth &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Booth &amp;1 for process order &amp;2 was blocked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Batch &amp;1 is already in booth &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp;1 moved to &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Plant or Warehouse# could not be blank neither!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>You could not logon ITS both for plant and warehouse</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>&amp;1 is not a booth !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>&amp;1 on &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Original Batch not the Same!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp;1 does not have an original batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>&amp;1 is neither a FG batch nor WIP batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No record was found !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Booth &amp;1 not allocated to Process Order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Booth &amp;1 deallocated!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Booth &amp;1 allocated!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>WIP batch or Process Order &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Booth &amp;1 already allocated to Process Order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Booth &amp;1 not allocated!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Booth &amp;1 not deallocated from Process Order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>No pallet/carton for STO !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Neither Carton nor Pallet is scanned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Ink moved to &amp;1 and valid to use!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&amp;1 is an invalid object!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>No BOM for this material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Ink not valid to use!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Batch &amp;1 has expired !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Batch &amp;1 is not original batch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>No Valid Process Order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Serial number &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Outbound delivery &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Transfer order &amp;1 confirmed !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Material &amp;1 not on TO!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Batch &amp;1 does not have any quantity to move!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Source loc. mismatch for material &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Quantity mismatch for material &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>STO &amp;1 created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>&amp;is not an inbound delivery #!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Serial # &amp;1 does not correspond to a batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>The scan data for inb. delivery has been putawayed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Location &amp;1 resticted to move!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Batch &amp;1 is in multiple storage location !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>&amp;1 moved to &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>IM status and batch status of &amp;1 mismatch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Batch &amp;1 is in multiple in storage location !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Movement to shipping lane is not allowed !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>&amp;1 to &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Pallet info is missing for SU &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Multiple storage types exist for storage bin &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Material &amp;1 blocked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Can&apos;t find associated material!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>There&apos;s no quantity associated with the item!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>More than one open physical inventory document exist !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>No Physical Inventory Document was found !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Total qty exceeds carton limit!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Batch &amp;1 is empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Physical Inventory Doc &amp;1 is complete.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Cur.WIP Batch Qty: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>No TO to be confirmed for delivery &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Complete count for physical inventory doc/storage location &amp;1?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Batch &amp;2 not assigned to any HU!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Batch &amp;2 assigned to multi HUs!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>&amp;1 off &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>You do not have authorization to change status to &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Carton Batch &amp;1 is already on pallet &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Batch status of &amp;1 and &amp;2 are not same!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>The WIP batch is not on the last operation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Scanned quanity equals the current delivered quantity for the order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Batch &amp;1 does not exist or is empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>QI status of &amp;1 and &amp;2 are not the same!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Unable to determine current operation for the WIP batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Bch &amp;1 on plt &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>IM status of &amp;1 and &amp;2 are not the same!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Inspection Type not maintained for material:&amp;1/Plant:&amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>&amp;1 status &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>&amp;1 is not a valid physical inventory document number!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Phys Inv Doc &amp;1 was cleared!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Phys Inv Doc &amp;1 was cancelled!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Phys Inv Doc &amp;1 is not active!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Scanned status same as current inspection lot status!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Bin not assigned to count on phys. inv. doc. &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Insp.Lot &amp;1 of &amp;2 is set to &amp;3!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>No open STO could be found for scanned serial# &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Batch info is missing on label! Material &amp;1 is batch managed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>WIP: &amp;1/&amp;2 is not allowed to this T-code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Row Material:&amp;1/&amp;2 is not allowed to this T-code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Finish goods:&amp;1/&amp;2 is not allowed to this T-code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>RM batch &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Current storage bin different than source bin scanned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>&amp;1 moved to &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Open TO exists for SU &amp;1 . Transfer is not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Phys Inv Doc &amp;1 was counted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Delivery has not been created or PGIed yet !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Complete count for physical inventory document &amp;1 ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Batch’s characteristic mismatch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Failed to transfer batch &amp;1 to batch &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>&amp;1 on &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Unable to determine storage type for bin &amp;1. Check bin!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Storage location invalid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>&amp;1 is neither a FG nor a RM batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Pur. group could not be determined for material &amp; 1/Plant &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Error in conversion of barcode string &amp;i_bar_code_string</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Purchase group is not identical, STO created fails</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1 is not a process order !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Item Already has Open TO !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>No Transfer Order Found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Pallet &amp;1 is empty !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1 unpacked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Label type &amp;1 is not allowed by this transaction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Invalid Bin &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Bar code string is not in one of the defined formats in the system!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Item already confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Scanned label is not a FG batch label!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>No open TO could be found for scanned O/B Delivery &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Cannot convert entry to number &amp;seg_mask !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Login warehouse &amp;1 is not workable for transaction &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Input only Numeric Values!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>No items could be found on Pallet &amp;1 for scanned O/B Delivery &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Pallet &amp;1 not allowed to pick!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Batch &amp;1 on Pallet &amp;2 over picked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Non-batch managed material &amp;1 over picked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>Non-batch managed material &amp;1 not allowed to pick!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>RM batch &amp;1 not allowed to pick!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Booth &amp;1 is blocked!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Operation &amp;1 is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Operation determination failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>FG batch &amp;1 not allowed to pick!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>FG batch &amp;1 over picked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>RM batch &amp;1 over picked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Batch &amp;1 was NOT moved to the destination storage location &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Restricted to move !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>&amp;1 pikd(&amp;2 of &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Batch &amp;1 picked(&amp;2 of &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Material &amp;1 picked(&amp;2 of &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Original Batch &amp;1 has multiple storage locations !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Batch &amp;1 added!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Logon plant and label stock plant mismatch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Sloc &amp;1 in Plant &amp;2 is WM Managed !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Storage Unit could not be found or picked!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>&amp;1 in &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Status not Found within profile &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>OB &amp;1 moved to CB &amp;2 in SL &amp;3 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>&amp;1 in &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>Inspection Lot Status Profile not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Batch &amp;1 not in Storage location &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Batch &amp;1 is already allocated to an open TO !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Barcode scanned is not of PALLET type!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Pallet &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Plant/Sloc of the Pallet differs from PO!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Batch &amp;1 not in warehouse !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Operation mismatch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>No material to issue for operation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Incomplete Label!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>&amp;1 issued.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>&amp;1:&amp;2:&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>Not allowed for unit!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>&amp;1 mis-match with other cartons on &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Parent batch &amp;1 does not exist in storage unit &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>No quantity in storage unit at original batch.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>FG batch &amp;1 already established.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>&amp;1 established.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Original batch mismatch with process order plus 000!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Container batch &amp;1 already established !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Last Operation on the already confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>Previous Operation not yet Finished!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>WIP batch &amp;1 already issued !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>&amp;1 received!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Vendor batch mismatch !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>&amp;1 established!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>WIP batch &amp;1 not in assigned booth !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Operation Confirmed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Pallet Saved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>192</MSGNR>
+     <TEXT>Enter &amp;1 First!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>193</MSGNR>
+     <TEXT>material number on label does not match with SAP batch material record !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>194</MSGNR>
+     <TEXT>WIP Batch &amp;1 already exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>195</MSGNR>
+     <TEXT>Order &amp;1 has been blocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>196</MSGNR>
+     <TEXT>Order &amp;1 is neither production order nor process order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>197</MSGNR>
+     <TEXT>Stage &amp;1 is not the &amp;2 operation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>Stage:&amp;1 doesn&apos;t exist in order &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>Order &amp;1 does not have an &apos;OR&apos; batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Assigned HUs to Delivery &amp;1 successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>The second operation corresponding stage is &apos;UNISOR&apos; / &apos;IBOX&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Batch &amp;1/Material &amp;2 not assigned to order &amp;3!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>&amp;1 produced.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>&amp;1 produced: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Material &amp;1 already issued to required quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>FG Batch &amp;1 already exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Material &amp;1 not assigned to order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>Material mismatch! Batch material &amp;1 / &amp;2 is not on order &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Serial &amp;1 is already issued to order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Order &amp;1 is already confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>IM status of batch &amp;1 is not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>Batch quantity greater than required quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>Batch Already exits while current operation is &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Transaction only allowed for intermediates!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>Please enter qty for Final Confirmation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>Max Count for &amp;1 not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>217</MSGNR>
+     <TEXT>&amp;1 issued!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>218</MSGNR>
+     <TEXT>&amp;1 confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>219</MSGNR>
+     <TEXT>&amp;1 is not a FG batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>&amp;1 not received!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>221</MSGNR>
+     <TEXT>&amp;1 Rolled-up!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>222</MSGNR>
+     <TEXT>Operation &amp;1 not confirmed yet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>223</MSGNR>
+     <TEXT>The batch&apos;s current operation already confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>224</MSGNR>
+     <TEXT>Parent batch &amp;1 not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>225</MSGNR>
+     <TEXT>Operation &amp;1 already confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>226</MSGNR>
+     <TEXT>Parent batch for &amp;1 not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>227</MSGNR>
+     <TEXT>The current operation is not an inline operation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>228</MSGNR>
+     <TEXT>Parent batch IM, batch and QI lot status not matches with input Pallet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>229</MSGNR>
+     <TEXT>Batch IM, batch and QI lot status are not matches for cartons on pallet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Transaction allowed only for CSP orders !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>231</MSGNR>
+     <TEXT>HCM not allowed on process order &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>232</MSGNR>
+     <TEXT>Serial &amp;1 not issued to Order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>&amp;1 in Stk.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>Received batch &amp;1 for proc order &amp;2 .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>Batch &amp;1 does not belong to order &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>Fail to rollup Pallet &amp;1.Please re-process by ZITSREPROCESS.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>Original Batch Mismatch between batch on Pallet and Input Batch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>&amp;1 Rolled-up!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>Batch Char &amp;1 not assigned to Batch &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>WIP Batch &amp;1 already produced on stage of &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>Status mismatch! &amp;1 unpacked failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>&amp;1 unpacked. Status mismatch!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>243</MSGNR>
+     <TEXT>&amp;1 not blocked for destruction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>244</MSGNR>
+     <TEXT>RM batch &amp;1 exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>245</MSGNR>
+     <TEXT>Quantity from label is zero!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>246</MSGNR>
+     <TEXT>&amp;1 is not an in booth!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>247</MSGNR>
+     <TEXT>The original Batch for Sample Batch &amp;1 and WIP/FG Batch &amp;2 are different.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>248</MSGNR>
+     <TEXT>Uncomplete post exist, please run reprocess program!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>249</MSGNR>
+     <TEXT>Ink not a component of the process order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>&amp;1 not exist or had already processed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>No Cartons on Pallet &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>&apos;-OR&apos; batch &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>No storage location found for work center &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>Recorded for &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>No WIP/FG batch exist for Sample batch &amp;1!.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>256</MSGNR>
+     <TEXT>Clear &apos;Rep Sample Track&apos; for batch &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>257</MSGNR>
+     <TEXT>&apos;Sample Track&apos; cleared!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>258</MSGNR>
+     <TEXT>Can&apos;t move container batch. Qty  cannot be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>259</MSGNR>
+     <TEXT>&amp;1:&amp;2 valid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>Material &amp;1 is not allowed for &amp;2 order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>261</MSGNR>
+     <TEXT>STO &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>262</MSGNR>
+     <TEXT>Stock Type cannot be determined for batch &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>263</MSGNR>
+     <TEXT>&amp;1 is not an inline order!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>264</MSGNR>
+     <TEXT>Operation not allowed on &amp;1 assign correct resource!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>265</MSGNR>
+     <TEXT>&amp;1 already exists in DC!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>266</MSGNR>
+     <TEXT>O/B delivery &amp;1 already picked!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>267</MSGNR>
+     <TEXT>&amp;1 (&amp;2 of &amp;3).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>268</MSGNR>
+     <TEXT>SU &amp;1 established!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>269</MSGNR>
+     <TEXT>Resource &amp;1 not assigned to proc. order &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>270</MSGNR>
+     <TEXT>Resource &amp;1 is deleted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>271</MSGNR>
+     <TEXT>Operation &amp;1/&amp;2: Start Time already recorded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>272</MSGNR>
+     <TEXT>&amp;1/&amp;2 started</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>273</MSGNR>
+     <TEXT>Input a legitimate number for quantity field !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>274</MSGNR>
+     <TEXT>Delivery &amp;1 has no item to pick.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>275</MSGNR>
+     <TEXT>&amp;1 is neither a HU nor a SU!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>276</MSGNR>
+     <TEXT>Confirm Receipt of Pallet/Batch &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>277</MSGNR>
+     <TEXT>Location &amp;1 is blocked !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>278</MSGNR>
+     <TEXT>WIP Batch &amp;1 has not yet moved to an in-booth.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>279</MSGNR>
+     <TEXT>Operation &amp;1/&amp;2: Finish Time already recorded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>280</MSGNR>
+     <TEXT>O/B delivery &amp;1 already packed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>281</MSGNR>
+     <TEXT>Operation already completed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>282</MSGNR>
+     <TEXT>Last tank not removed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>283</MSGNR>
+     <TEXT>Destination and Source SLocs are the same !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>284</MSGNR>
+     <TEXT>Delivery plant &amp;1 is not workable for transaction &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>285</MSGNR>
+     <TEXT>No record of sloc for batch &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>286</MSGNR>
+     <TEXT>SU &amp;1 is empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>287</MSGNR>
+     <TEXT>HU &amp;1 is empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>288</MSGNR>
+     <TEXT>&amp;1 to &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>289</MSGNR>
+     <TEXT>Can&apos;t find parent batch for pallet &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>290</MSGNR>
+     <TEXT>Fill compltd for &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>291</MSGNR>
+     <TEXT>Operation &amp;1/&amp;2: Start Time not Recorded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>292</MSGNR>
+     <TEXT>&amp;1/&amp;2 par. finished.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>293</MSGNR>
+     <TEXT>Tank issued and start time already recorded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>294</MSGNR>
+     <TEXT>Start time not recorded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>295</MSGNR>
+     <TEXT>&amp;1 on &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>296</MSGNR>
+     <TEXT>WIP batch &amp;1 already completed operation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>297</MSGNR>
+     <TEXT>Required operation &amp;1 not completed on &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>298</MSGNR>
+     <TEXT>Stock has multiple statuses ! Correct manually.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>299</MSGNR>
+     <TEXT>Storage location &amp;1 not in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Order &amp;1 is not in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Batch &amp;1 is not in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Storage location &amp;1 is not an in booth or not in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Storage location &amp;1 is not a receive booth or not in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Work center of booth &amp;1 is not assigned to order &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>Enter a FG label type with appropriate quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>Pallet &amp;1 had already rolled-up!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>QI status of &amp;1 and &amp;2 are not the same!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>Bach &amp;1 can only be established from a pallet !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>Qty Exceeds TO Quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>Parent Batch not in storage location &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>311</MSGNR>
+     <TEXT>Scrap amt. exceed the upper limit &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>&amp;1 Scrapped by Scan!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>313</MSGNR>
+     <TEXT>Order does not have necessary valid status: &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Can&apos;t find object number for routing number &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>315</MSGNR>
+     <TEXT>No valid status maintained for profile &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>316</MSGNR>
+     <TEXT>No satisfied next operation exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>317</MSGNR>
+     <TEXT>Operation Has Invalid Status!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>318</MSGNR>
+     <TEXT>Storage type &amp;1 is not SU-managed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>319</MSGNR>
+     <TEXT>Storage type &amp;1 is SU managed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>320</MSGNR>
+     <TEXT>Booth not allowed for next operation &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>321</MSGNR>
+     <TEXT>No Storage type found !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>322</MSGNR>
+     <TEXT>No status found for order &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>323</MSGNR>
+     <TEXT>Resource couldn&apos;t be identfied for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>324</MSGNR>
+     <TEXT>Scanned batch is not allowed to be received from this order</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>325</MSGNR>
+     <TEXT>&amp;1/&amp;2 finished!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>326</MSGNR>
+     <TEXT>Operation &amp;1/&amp;2 already completed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>327</MSGNR>
+     <TEXT>Tank &amp;1 was not issued to &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>328</MSGNR>
+     <TEXT>QI lot user status invalid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>329</MSGNR>
+     <TEXT>Batch &amp;1 not allocated to Order &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>330</MSGNR>
+     <TEXT>Control key derived failure for &amp;1/&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>331</MSGNR>
+     <TEXT>Vendor batch not maintained for &amp;1/&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>332</MSGNR>
+     <TEXT>Tank &amp;1 issued: Start time not recorded.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>333</MSGNR>
+     <TEXT>Current tank batch was not &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>334</MSGNR>
+     <TEXT>Tank off for &amp;1 has already done.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>335</MSGNR>
+     <TEXT>Tank batch &amp;1 in QI!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>336</MSGNR>
+     <TEXT>Tank batch &amp;1 blocked!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>337</MSGNR>
+     <TEXT>Tank batch &amp;1 has restricted stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>338</MSGNR>
+     <TEXT>Invalid UoM &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>339</MSGNR>
+     <TEXT>&amp;1 on &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>340</MSGNR>
+     <TEXT>Storage bin &amp;1 does not exist in warehouse &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>341</MSGNR>
+     <TEXT>Master data of &amp;1/&amp;2 not maintained in ZTITS_CONFIG!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>342</MSGNR>
+     <TEXT>Multiple storage unit exist in storage bin &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>343</MSGNR>
+     <TEXT>&amp;1 is not a valid parent batch or has no stock in warehouse &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>344</MSGNR>
+     <TEXT>Pallet info is missing for Batch &amp;1 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>345</MSGNR>
+     <TEXT>Cartons not rolled up on SU &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>346</MSGNR>
+     <TEXT>Batch &amp;1 has no available stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>347</MSGNR>
+     <TEXT>Batch &amp;1 is not on storage unit &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>348</MSGNR>
+     <TEXT>Carton &amp;1 is already on SU &amp;2 and not rolled up!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>349</MSGNR>
+     <TEXT>Rework order should have an R series.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>350</MSGNR>
+     <TEXT>Print from stock order should have a K-Q series.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>351</MSGNR>
+     <TEXT>Label quantity does not equal SAP quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>352</MSGNR>
+     <TEXT>Invaild Quantity &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>353</MSGNR>
+     <TEXT>Inpurt quantity &amp;1 is overflow.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>354</MSGNR>
+     <TEXT>Pallet &amp;1 not received at the warehouse yet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>355</MSGNR>
+     <TEXT>Bin &amp;1 was emptied.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>356</MSGNR>
+     <TEXT>Bin &amp;1 on doc &amp;2 was cancelled, counted or cleared !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>357</MSGNR>
+     <TEXT>Count Complete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>358</MSGNR>
+     <TEXT>Count &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>359</MSGNR>
+     <TEXT>Entered materials &amp;1 is not in WM.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>360</MSGNR>
+     <TEXT>No input for physical inventory doc. &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>361</MSGNR>
+     <TEXT>Entered material is in different storage bin.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>362</MSGNR>
+     <TEXT>Entered material has different storage type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>363</MSGNR>
+     <TEXT>Entered material &amp;1 is in different storage type/bin.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>364</MSGNR>
+     <TEXT>Vendor Batch Field not maintained for batch &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>365</MSGNR>
+     <TEXT>IM status of stock for batch &amp;1 not unrestricted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>366</MSGNR>
+     <TEXT>Batch is still in the In/Receiving Booth of Stage &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>367</MSGNR>
+     <TEXT>Item moved to &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>368</MSGNR>
+     <TEXT>Batch &amp;1 has length larger than 10!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>369</MSGNR>
+     <TEXT>Quantity not equal to 6 digits!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>370</MSGNR>
+     <TEXT>Work center &amp;1 does not exist in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>371</MSGNR>
+     <TEXT>Process order &amp;1 still in resource &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>372</MSGNR>
+     <TEXT>Order Item Level Data missing!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>373</MSGNR>
+     <TEXT>Unable to find stock type for order &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>374</MSGNR>
+     <TEXT>Unable to determine material category for material type &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>375</MSGNR>
+     <TEXT>Booth &amp;1 unblocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>376</MSGNR>
+     <TEXT>Input qty. beyond the limitation of FG Carton &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>377</MSGNR>
+     <TEXT>Quantity is not enough in Storage location &amp;1  Plant &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>378</MSGNR>
+     <TEXT>No Parent Batch is maintained for Carton Batch &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>379</MSGNR>
+     <TEXT>Zero batch &amp;1 is not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>380</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>381</MSGNR>
+     <TEXT>Storage bin &amp;1 does not exist in SU-managed storage type!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>382</MSGNR>
+     <TEXT>Storage bin &amp;1 does not exist in non SU-managed storage type!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>383</MSGNR>
+     <TEXT>Batch &amp;1 has sales order stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>384</MSGNR>
+     <TEXT>Batch &amp;1 not established!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>385</MSGNR>
+     <TEXT>Batch &amp;1 is on pallet &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>386</MSGNR>
+     <TEXT>Status &apos;AVL&apos; is not allowed for this scan!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>387</MSGNR>
+     <TEXT>No non-SU managed storage type for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>388</MSGNR>
+     <TEXT>The quantity should be greater than 0.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>389</MSGNR>
+     <TEXT>Expiry Date Not Maintained for batch &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>390</MSGNR>
+     <TEXT>Batch &amp;1 is in warehouse!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>391</MSGNR>
+     <TEXT>Parent batch &amp;1 does not have related FG/WIP carton batch in plant!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>392</MSGNR>
+     <TEXT>No movement found for serial &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>393</MSGNR>
+     <TEXT>Serial &amp;1 does not have an open receiving document!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>394</MSGNR>
+     <TEXT>&amp;1 of &amp;2 picked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>395</MSGNR>
+     <TEXT>Item scanned is in &amp;1/DC!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>396</MSGNR>
+     <TEXT>Pallet &amp;1 was shipped to DC, can&apos;t move!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>397</MSGNR>
+     <TEXT>&amp;1 in &amp;2 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>398</MSGNR>
+     <TEXT>Batch &amp;1 was picked with quantity &amp;2 before. Do you want to update it?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>399</MSGNR>
+     <TEXT>&amp;1 does not exist or already picked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>400</MSGNR>
+     <TEXT>Source Bin is the same as Destination Bin!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>401</MSGNR>
+     <TEXT>Only DELETE operation is allowed for table ZTITS_PICK.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>402</MSGNR>
+     <TEXT>To item has been confirmed, delete operation is not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>403</MSGNR>
+     <TEXT>Can not find TO line item for container batch &amp;1 with quantity &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>404</MSGNR>
+     <TEXT>Batch &amp;1 is received through other channels!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>405</MSGNR>
+     <TEXT>Order already received up to target quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>406</MSGNR>
+     <TEXT>Entered quantity is greater than remained order quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>407</MSGNR>
+     <TEXT>No batch is assigned to order &amp;1 as component!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>408</MSGNR>
+     <TEXT>Parent Batch &amp;1 not allowed into the Prep Rooms!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>409</MSGNR>
+     <TEXT>Inv. count of &amp;1 saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>410</MSGNR>
+     <TEXT>No count record for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>411</MSGNR>
+     <TEXT>Inv. count of &amp;1 save fail</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>412</MSGNR>
+     <TEXT>Unable to set object &amp;1 to &apos;REL&apos; status!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>413</MSGNR>
+     <TEXT>Plant &amp;1 not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>414</MSGNR>
+     <TEXT>Location &amp;1/&amp;2 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>415</MSGNR>
+     <TEXT>Material &amp;1 not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>416</MSGNR>
+     <TEXT>Batch# is missing as &amp;1 is batch managed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>417</MSGNR>
+     <TEXT>Batch# is no need as &amp;1 is non-batch managed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>418</MSGNR>
+     <TEXT>Batch &amp;1/&amp;2 does not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>419</MSGNR>
+     <TEXT>&amp;1 is an existing SU!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>420</MSGNR>
+     <TEXT>Stock type &amp;1 in invalid(only 1,2,3,4 are allowed)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>421</MSGNR>
+     <TEXT>&amp;1 not assigned to pick for &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>422</MSGNR>
+     <TEXT>There is count record for &amp;1/&amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>423</MSGNR>
+     <TEXT>Storage unit &amp;1 is already in storage bin &amp;2 &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>424</MSGNR>
+     <TEXT>No warehouse number associated with plant &amp;1 and sloc &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>425</MSGNR>
+     <TEXT>Stock in a different warehouse from log on warehouse!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>426</MSGNR>
+     <TEXT>&amp;1 counted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>427</MSGNR>
+     <TEXT>Count for Bin &amp;1 already completed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>428</MSGNR>
+     <TEXT>Bin &amp;1 was not completed yet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>429</MSGNR>
+     <TEXT>&amp;1 on doc &amp;2 was cancelled, counted or cleared !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>430</MSGNR>
+     <TEXT>Entered batch &amp;1 is in different storage type/bin.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>431</MSGNR>
+     <TEXT>Entered quantity is greater than SAP quantity!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>432</MSGNR>
+     <TEXT>&amp;1 already counted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>433</MSGNR>
+     <TEXT>&amp;1 is invalid( zero stock )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>434</MSGNR>
+     <TEXT>Batch &amp;1 has IM/batch/QI lot status that&apos;s not allowed for picking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>435</MSGNR>
+     <TEXT>&amp;1 has no WM stock.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>436</MSGNR>
+     <TEXT>&amp;1 has no stock in Warehouse &amp;2 with storage type &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>437</MSGNR>
+     <TEXT>&amp;1 has stock in multiple plants.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>438</MSGNR>
+     <TEXT>Scanned label is invalid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>439</MSGNR>
+     <TEXT>Bin &amp;1 can not be emptied because it has been counted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>440</MSGNR>
+     <TEXT>&amp;1 is on pallet,can not count!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>441</MSGNR>
+     <TEXT>Batch &amp;1 has blocked stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>442</MSGNR>
+     <TEXT>Your current location &amp;1 is not match with the &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>443</MSGNR>
+     <TEXT>HU &amp;1 is in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>444</MSGNR>
+     <TEXT>Batch &amp;1 is in plant &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>445</MSGNR>
+     <TEXT>HU &amp;1 is not empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>446</MSGNR>
+     <TEXT>HU &amp;1 has been assigned to SU in TO &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>447</MSGNR>
+     <TEXT>&amp;1 is not in pallet &amp;2!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>448</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>449</MSGNR>
+     <TEXT>Carton batch &amp;1 already recorded to establish</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>450</MSGNR>
+     <TEXT>Personal timezone is not maintained!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>451</MSGNR>
+     <TEXT>No sufficient stock in &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>452</MSGNR>
+     <TEXT>&amp;1 Counted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>453</MSGNR>
+     <TEXT>&amp;1 cannot be added to PI doc &amp;2. Multipe Stock Type in Inventory.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>454</MSGNR>
+     <TEXT>&amp;1 cannot be found !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>455</MSGNR>
+     <TEXT>Qty on &amp;1 greater than required!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>456</MSGNR>
+     <TEXT>&amp;1:&amp;2:&amp;3:&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>457</MSGNR>
+     <TEXT>Pallet:&amp;1 could not be found in &amp;2/&amp;3!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>458</MSGNR>
+     <TEXT>&amp;1/&amp;2 has been used in one STO in the reprocess queue</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>459</MSGNR>
+     <TEXT>Unknow error met during call of [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>460</MSGNR>
+     <TEXT>Batch located in warehouse and not allowed for this transaction &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>461</MSGNR>
+     <TEXT>Batch is not in warehouse and not allowed for this transaction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>462</MSGNR>
+     <TEXT>&amp;1 has more than 1 non-SU managed storage type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>463</MSGNR>
+     <TEXT>Could to find &amp;1 in reservation &amp;2/&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>464</MSGNR>
+     <TEXT>Enter qty to issue</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>465</MSGNR>
+     <TEXT>Carton &amp;1 is on pallet ID &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>466</MSGNR>
+     <TEXT>&amp;1 has inconsistent data in &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>467</MSGNR>
+     <TEXT>Unable to move unmatched carton &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>468</MSGNR>
+     <TEXT>&amp;1 does not have enough quantity in &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>469</MSGNR>
+     <TEXT>Batch &amp;1 does not exist. Establish it</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>470</MSGNR>
+     <TEXT>Plant mismatch !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>471</MSGNR>
+     <TEXT>Change Quantity not allowed for the item scanned.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>472</MSGNR>
+     <TEXT>&amp;1 is in DC.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>473</MSGNR>
+     <TEXT>&amp;1 is in blocked status.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>474</MSGNR>
+     <TEXT>Cur.FG Batch Qty: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>475</MSGNR>
+     <TEXT>Missing Dest Sloc in table ZTITS_MTART</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>476</MSGNR>
+     <TEXT>Carton Batch # with QI Status # not allowed for scrap</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>477</MSGNR>
+     <TEXT>Transaction not allowed for this material type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>478</MSGNR>
+     <TEXT>No Sample record found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>479</MSGNR>
+     <TEXT>SU &amp;1 not in blocked stock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>480</MSGNR>
+     <TEXT>Open transfer order exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>481</MSGNR>
+     <TEXT>Insufficient inventory in IM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>482</MSGNR>
+     <TEXT>The pallet id is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>483</MSGNR>
+     <TEXT>Batch not in blocked stock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>484</MSGNR>
+     <TEXT>The pallet id &amp;1 does not exist in the warehouse &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>485</MSGNR>
+     <TEXT>Establish failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>486</MSGNR>
+     <TEXT>Insufficient inventory in WM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>487</MSGNR>
+     <TEXT>Please scan storage unit or batch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>488</MSGNR>
+     <TEXT>Please check the IM inventory and WM inventory of batch &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>489</MSGNR>
+     <TEXT>Pallet id mismatch in batch &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>490</MSGNR>
+     <TEXT>Pallet not associated with batch &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>491</MSGNR>
+     <TEXT>Scrap Succeeded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>492</MSGNR>
+     <TEXT>Invalid Pallet ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>493</MSGNR>
+     <TEXT>Cannot start - Ink batch assignment has not been completed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>494</MSGNR>
+     <TEXT>Entered quantity is greater than the Available Stock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>495</MSGNR>
+     <TEXT>Mat.doc &amp;1 posted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>496</MSGNR>
+     <TEXT>Quantity must be less than or equal to available stock quantity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>497</MSGNR>
+     <TEXT>Error Occcured while posting the Material document:&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>498</MSGNR>
+     <TEXT>Invalid Barcode !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>499</MSGNR>
+     <TEXT>Container is at WH &amp;1,move it to plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>HU stock not in unrestricted use status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>Stock transfered from Sto. Loc: &amp;1 to:&amp;2 with Mat. Doc. Num &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>502</MSGNR>
+     <TEXT>Transfer order &amp;1 created and confirmed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>503</MSGNR>
+     <TEXT>Please enter the Source Bin!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>504</MSGNR>
+     <TEXT>Please scan the barcode!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>505</MSGNR>
+     <TEXT>Please enter all the parameters on the screen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>506</MSGNR>
+     <TEXT>Material Quantity is zero, so should not go to next screen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>507</MSGNR>
+     <TEXT>Material has Quantity in multiple stock categories!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>508</MSGNR>
+     <TEXT>Please maintain warehouse and plant against the user parameter ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>509</MSGNR>
+     <TEXT>Material &amp; is not allowed to be put in destination storage type &amp; ( &amp; )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>510</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>511</MSGNR>
+     <TEXT>Please check plant in delivery.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>512</MSGNR>
+     <TEXT>Delivery &amp;1 has no item to pack.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>513</MSGNR>
+     <TEXT>Scan all items</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>514</MSGNR>
+     <TEXT>Enter Item No.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>515</MSGNR>
+     <TEXT>Batch Update Failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>516</MSGNR>
+     <TEXT>HU Creation Failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>517</MSGNR>
+     <TEXT>Enter all HU withdrawals for TO item</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>518</MSGNR>
+     <TEXT>Pallet HU doesn&apos;t contain any child Carton HUs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>519</MSGNR>
+     <TEXT>HU &amp;1 picked and confirmed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>520</MSGNR>
+     <TEXT>Partial TO not confirmed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>521</MSGNR>
+     <TEXT>HU &amp;1 quantity more than TO line-item quantity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>522</MSGNR>
+     <TEXT>Scanned HU &amp;1 not present in TO &amp;2 item &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>523</MSGNR>
+     <TEXT>Carton Creation Failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>524</MSGNR>
+     <TEXT>Pallet Creation Failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>525</MSGNR>
+     <TEXT>Carton &amp;1 Already Exists!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>526</MSGNR>
+     <TEXT>Pallet &amp;1 Already Exists!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>527</MSGNR>
+     <TEXT>Proposed HU &amp;1 is already Scanned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>528</MSGNR>
+     <TEXT>Proposed HU &amp;1 is already Confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>529</MSGNR>
+     <TEXT>Item &amp;1 was not confirmed because QA status is &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>530</MSGNR>
+     <TEXT>HU &amp;1 already exists in HU box.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>531</MSGNR>
+     <TEXT>Invalid Process Order</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>532</MSGNR>
+     <TEXT>No Storage location is assigned to order &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZITS</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>No valid scan data for save</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
